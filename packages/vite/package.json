@@ -42,8 +42,8 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsdown && node --input-type=commonjs -e \"const fs=require('node:fs');fs.rmSync('client',{recursive:true,force:true});fs.cpSync('../client/dist','client',{recursive:true})\"",
-    "dev": "tsdown --watch"
+    "build": "vp pack && node --input-type=commonjs -e \"const fs=require('node:fs');fs.rmSync('client',{recursive:true,force:true});fs.cpSync('../client/dist','client',{recursive:true})\"",
+    "dev": "vp pack --watch"
   },
   "dependencies": {
     "@vitejs/devtools-kit": "catalog:",
@@ -52,7 +52,6 @@
   },
   "devDependencies": {
     "@vue/devtools-client": "workspace:*",
-    "tsdown": "catalog:",
     "vite": "catalog:"
   },
   "peerDependencies": {

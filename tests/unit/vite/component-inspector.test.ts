@@ -1,5 +1,5 @@
 import type { ComponentInspectorDockContext } from '../../../packages/vite/src/component-inspector'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 import { closeDockPanelForComponentInspection } from '../../../packages/vite/src/component-inspector'
 
 describe('Vite component inspector dock lifecycle', () => {
