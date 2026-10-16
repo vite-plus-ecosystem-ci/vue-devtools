@@ -82,3 +82,21 @@ allowBuilds:
   esbuild: true
   simple-git-hooks: true
   vue-demi: true
+minimumReleaseAgeExclude:
+  # ecosystem-ci smoke test: preview builds and freshly pinned toolchain packages
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - oxlint
+  - '@oxlint/*'
+  - oxfmt
+  - '@oxfmt/*'
+  - oxlint-tsgolint
+  - '@oxlint-tsgolint/*'
+  - vitest
+  - '@vitest/*'
+  - tinybench
+  - yuku-core
+  - yuku-parser
+  - '@yuku-core/*'
+  - '@yuku-toolchain/*'
