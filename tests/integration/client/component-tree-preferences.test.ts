@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { beforeEach, describe, expect, it } from 'vitest'
+import { beforeEach, describe, expect, it } from 'vite-plus/test'
 import type { ComponentSnapshot } from '../../../packages/client/src/composables/devtools-client'
 import { getComponentPreferenceKey } from '../../../packages/client/src/composables/component-tree'
 import {

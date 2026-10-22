@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import { flushPromises } from '@vue/test-utils'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsRpcEvent } from '../../../packages/kit/src/rpc/types'
 
 const { command, eventHandlers, query } = vi.hoisted(() => {

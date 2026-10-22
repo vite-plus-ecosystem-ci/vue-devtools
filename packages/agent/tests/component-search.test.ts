@@ -1,5 +1,5 @@
 // @vitest-environment happy-dom
-import { afterEach, expect, it } from 'vitest'
+import { afterEach, expect, it } from 'vite-plus/test'
 import { createDevtoolsKit } from '../../kit/src/kit'
 import type { DevtoolsKit } from '../../kit/src/kit'
 import { createComponentTreeFixture } from '../../../tests/fixtures/runtime'

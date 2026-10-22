@@ -14,10 +14,10 @@
   "type": "module",
   "scripts": {
     "build": "pnpm run build:scripts && pnpm run build:panel",
-    "build:panel": "vite build",
-    "build:scripts": "tsdown",
-    "dev:panel": "vite build --watch",
-    "dev:scripts": "tsdown --watch",
+    "build:panel": "vp build",
+    "build:scripts": "vp pack",
+    "dev:panel": "vp build --watch",
+    "dev:scripts": "vp pack --watch",
     "prepack": "pnpm run build"
   },
   "dependencies": {
@@ -31,7 +31,6 @@
     "@iconify-json/ri": "catalog:",
     "@types/chrome": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
-    "tsdown": "catalog:",
     "typescript": "catalog:",
     "unocss": "catalog:",
     "vite": "catalog:",

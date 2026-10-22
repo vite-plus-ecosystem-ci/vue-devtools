@@ -1,5 +1,5 @@
 import { effectScope } from 'vue'
-import { expect, it, vi } from 'vitest'
+import { expect, it, vi } from 'vite-plus/test'
 import { createDevtoolsTimeline } from '../../../packages/client/src/composables/devtools-timeline'
 
 it('bounds pending events while rendering is suspended and keeps the newest events', () => {

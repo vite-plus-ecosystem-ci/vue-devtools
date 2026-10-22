@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsKit } from '../../../packages/kit/src/kit'
 import type { DevtoolsHookTarget } from '../../../packages/kit/src/hook'
 import { createDevtoolsKit } from '../../../packages/kit/src/kit'
