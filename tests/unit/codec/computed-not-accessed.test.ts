@@ -1,5 +1,5 @@
 import { computed } from 'vue'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import {
   encodeValue,
   isComputedRef,

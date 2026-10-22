@@ -2,7 +2,7 @@
 
 import { mount } from '@vue/test-utils'
 import type { DirectiveBinding } from 'vue'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import InspectorTree from '../../../packages/client/src/components/common/InspectorTree.vue'
 
 describe('InspectorTree', () => {

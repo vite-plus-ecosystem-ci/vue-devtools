@@ -1,5 +1,5 @@
 import { MessageChannel } from 'node:worker_threads'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsRpcClient } from '../../../packages/kit/src/rpc/client'
 import type { DevtoolsRpcServer } from '../../../packages/kit/src/rpc/server'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'

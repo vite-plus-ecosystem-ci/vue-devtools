@@ -6,7 +6,7 @@ import type { ComponentStateSnapshotMessage } from '../../../packages/kit/src/pr
 import type { InstalledDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createApp, defineComponent, h, nextTick, reactive, ref, setDevtoolsHook } from 'vue'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import { installDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 

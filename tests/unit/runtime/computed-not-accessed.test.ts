@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import { computed, createApp, defineComponent, h, proxyRefs } from 'vue'
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import type { ComponentStateSnapshotMessage } from '../../../packages/kit/src/protocol'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { NOT_ACCESSED_COMPUTED_DISPLAY, type EncodedValue } from '../../../packages/kit/src/codec'

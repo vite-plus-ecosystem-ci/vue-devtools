@@ -1,5 +1,5 @@
 import type { Plugin } from 'vite'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { createVueDevToolsClientInjectionPlugin } from '../../../packages/vite/src/client-injection'
 import { RESOLVED_CLIENT_MODULE_ID } from '../../../packages/vite/src/constants'
 

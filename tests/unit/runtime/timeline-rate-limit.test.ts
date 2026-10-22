@@ -1,4 +1,4 @@
-import { afterEach, expect, it, vi } from 'vitest'
+import { afterEach, expect, it, vi } from 'vite-plus/test'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createComponentTreeFixture } from '../../fixtures'
 import * as codec from '../../../packages/kit/src/codec'

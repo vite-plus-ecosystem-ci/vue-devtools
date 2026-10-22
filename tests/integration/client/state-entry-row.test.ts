@@ -2,7 +2,7 @@
 
 import type { EncodedValue, StateEntry, ValueEntry } from '../../../packages/kit/src'
 import { flushPromises, mount } from '@vue/test-utils'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 
 const { command, dispose, onEvent, query } = vi.hoisted(() => ({
   command: vi.fn(async () => ({ status: 1 as const })),

@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createComponentTreeFixture, createCustomInspectorFixture } from '../../fixtures'

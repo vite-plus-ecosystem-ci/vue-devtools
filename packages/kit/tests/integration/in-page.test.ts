@@ -1,7 +1,7 @@
 import { createRpcChannelPair } from '../../../../tests/helpers/rpc-channel'
 import { MessageChannel } from 'node:worker_threads'
 import { connectPanelChannel } from 'devframe/in-page-channel'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsInPageProtocol } from '../../src/rpc/types'
 import { createDevtoolsRuntime } from '../../src/runtime/runtime'
 import { createDevtoolsRpcServer } from '../../src/rpc/server'

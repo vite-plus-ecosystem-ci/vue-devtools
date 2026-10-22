@@ -1,5 +1,5 @@
 import type { ReactivityGraphSnapshot } from '../../../packages/kit/src/protocol'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { buildForceGraph } from '../../../packages/client/src/utils/reactivity-graph-layout'
 import {
   buildRelationshipPath,

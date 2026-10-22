@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import type { ComponentStateSnapshotMessage } from '../../../packages/kit/src/protocol'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'

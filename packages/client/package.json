@@ -7,9 +7,9 @@
   "author": "webfansplz",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite dev --host 127.0.0.1",
-    "preview": "vite preview"
+    "build": "vp build",
+    "dev": "vp dev --host 127.0.0.1",
+    "preview": "vp preview"
   },
   "dependencies": {
     "@vitejs/devtools-kit": "catalog:",

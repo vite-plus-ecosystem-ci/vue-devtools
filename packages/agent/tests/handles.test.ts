@@ -3,7 +3,7 @@ import type {
   ComponentTreeSnapshotMessage,
   ComponentStateSnapshotMessage,
 } from '../../kit/src/protocol'
-import { it, expect } from 'vitest'
+import { it, expect } from 'vite-plus/test'
 import { createDevtoolsRuntime } from '../../kit/src/runtime/runtime'
 import { createComponentTreeFixture } from '../../../tests/fixtures/runtime'
 import { createVueDevtoolsAgentTools } from '../src'

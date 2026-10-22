@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { formatEditText, parseEditText } from '../../../packages/kit/src/codec/edit'
 import { encodeValue } from '../../../packages/kit/src/codec/encode'
 
