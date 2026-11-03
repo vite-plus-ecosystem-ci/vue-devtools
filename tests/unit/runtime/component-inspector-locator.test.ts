@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import {
   cancelComponentInspection,
   inspectComponentInPage,

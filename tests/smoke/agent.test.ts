@@ -6,7 +6,7 @@ import { chromium, type Browser } from 'playwright'
 import { resolve } from 'node:path'
 import { mkdtemp, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
-import { afterAll, beforeAll, expect, it, onTestFinished } from 'vitest'
+import { afterAll, beforeAll, expect, it, onTestFinished } from 'vite-plus/test'
 import { createServer } from 'vite'
 import vueDevtools from '../../packages/vite/src'
 

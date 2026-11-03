@@ -1,5 +1,5 @@
 // @vitest-environment happy-dom
-import { afterEach, expect, it, vi } from 'vitest'
+import { afterEach, expect, it, vi } from 'vite-plus/test'
 import { computed, customRef, readonly, ref, shallowReadonly } from 'vue'
 import { z } from 'zod'
 import { createDevtoolsKit } from '../../kit/src/kit'

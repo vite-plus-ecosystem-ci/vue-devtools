@@ -1,5 +1,5 @@
 import type { ComponentTreeNodeSnapshot } from '../../../packages/kit/src/protocol'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { applyComponentTreePatches } from '../../../packages/client/src/utils/component-tree-patches'
 
 function node(id: string, parentId?: string): ComponentTreeNodeSnapshot {

@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 // The package root resolves to a Node build without Vapor; the browser bundle includes it.
 import {
   createApp,
