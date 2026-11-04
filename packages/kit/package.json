@@ -31,12 +31,11 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch"
+    "build": "vp pack",
+    "dev": "vp pack --watch"
   },
   "devDependencies": {
-    "devframe": "catalog:",
-    "tsdown": "catalog:"
+    "devframe": "catalog:"
   },
   "engines": {
     "node": ">=22.12.0"

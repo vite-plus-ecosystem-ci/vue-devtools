@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite dev --host 127.0.0.1 --port 3003",
-    "preview": "vite preview --host 127.0.0.1 --port 3003"
+    "build": "vp build",
+    "dev": "vp dev --host 127.0.0.1 --port 3003",
+    "preview": "vp preview --host 127.0.0.1 --port 3003"
   },
   "dependencies": {
     "@antfu/design": "catalog:",

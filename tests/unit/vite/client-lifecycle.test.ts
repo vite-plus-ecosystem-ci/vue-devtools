@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it, onTestFinished, vi } from 'vitest'
+import { afterEach, describe, expect, it, onTestFinished, vi } from 'vite-plus/test'
 
 const agent = vi.hoisted(() => {
   const register = vi.fn((_connection: unknown, _page: { url: string; title: string }) => vi.fn())
