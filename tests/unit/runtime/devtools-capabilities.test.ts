@@ -1,5 +1,5 @@
 import type { DevtoolsCapabilitiesMessage, DevtoolsKit } from '../../../packages/kit/src'
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { createDevtoolsKit } from '../../../packages/kit/src'
 
 let kit: DevtoolsKit | undefined

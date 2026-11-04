@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import { flushPromises } from '@vue/test-utils'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 
 const { command, dispose, onEvent, query, transport } = vi.hoisted(() => ({
   transport: {

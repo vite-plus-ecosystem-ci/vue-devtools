@@ -8,7 +8,7 @@ import type {
   RuntimeQuery,
 } from '../../../packages/kit/src/runtime/types'
 import { flushPromises } from '@vue/test-utils'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 const { command, query, onEvent } = vi.hoisted(() => ({
   command: vi.fn<(command: RuntimeCommand) => Promise<RuntimeCommandResult>>(),

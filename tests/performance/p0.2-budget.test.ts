@@ -1,5 +1,5 @@
 import { performance as clock } from 'node:perf_hooks'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 import type { ComponentSnapshot } from '../../packages/client/src/composables/devtools-client'
 import { encodeValue } from '../../packages/kit/src/codec/encode'
 import { buildComponentTree } from '../../packages/client/src/composables/component-tree'
