@@ -1,5 +1,5 @@
 import type { Plugin, ResolvedConfig } from 'vite'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 import { resolveConfig } from 'vite'
 import vueDevtools from '../../../packages/vite/src'
 import { createVueDevToolsDockRegistrationPlugin } from '../../../packages/vite/src/utils/dock/registration'

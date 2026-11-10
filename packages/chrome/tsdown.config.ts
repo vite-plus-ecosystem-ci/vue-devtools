@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsdown'
+import { defineConfig } from 'vite-plus/pack'
 
 const define = {
   'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV ?? 'production'),

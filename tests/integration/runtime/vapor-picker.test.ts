@@ -2,7 +2,7 @@
 
 import type { InstalledDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 // The package root resolves to a Node build without Vapor; the browser bundle includes it.
 import {
   createApp,
