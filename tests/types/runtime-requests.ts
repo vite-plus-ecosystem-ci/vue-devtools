@@ -1,4 +1,4 @@
-import { expectTypeOf } from 'vitest'
+import { expectTypeOf } from 'vite-plus/test'
 import type { DevtoolsRpcClient } from '../../packages/kit/src/rpc/client'
 import type { DevtoolsRuntime } from '../../packages/kit/src/runtime'
 import type {

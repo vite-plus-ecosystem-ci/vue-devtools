@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 import { mount } from '@vue/test-utils'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 import { encodeValue, type StateEntry } from '../../../packages/kit/src'
 import { ref } from 'vue'
 import { createDevtoolsState } from '../../../packages/client/src/composables/devtools-state'

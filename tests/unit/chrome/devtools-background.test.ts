@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { VueDevtoolsDetectionPayload } from '../../../packages/chrome/src/shared/detection'
 
 class MockChromeEvent<TArgs extends unknown[]> {

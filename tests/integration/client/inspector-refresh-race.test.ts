@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import { flushPromises, mount } from '@vue/test-utils'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import { ref } from 'vue'
 import CustomInspectorPanel from '../../../packages/client/src/components/common/CustomInspectorPanel.vue'
 import type {

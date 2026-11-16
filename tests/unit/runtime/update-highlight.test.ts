@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import { createComponentTreeFixture } from '../../fixtures'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import {

@@ -1,6 +1,6 @@
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath } from 'node:url'
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vite-plus'
 
 function fromRoot(path: string): string {
   return fileURLToPath(new URL(path, import.meta.url))

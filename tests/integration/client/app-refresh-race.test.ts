@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import { flushPromises } from '@vue/test-utils'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { RuntimeQuery } from '../../../packages/kit/src/runtime/types'
 
 const { query, dispose, onFrameActivated } = vi.hoisted(() => ({

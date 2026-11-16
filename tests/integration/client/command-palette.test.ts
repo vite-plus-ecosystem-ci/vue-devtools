@@ -3,7 +3,7 @@
 import type { VueWrapper } from '@vue/test-utils'
 import type { DevtoolsCommand } from '../../../packages/client/src/composables/commands'
 import { flushPromises, mount } from '@vue/test-utils'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import CommandPalette from '../../../packages/client/src/components/common/CommandPalette.vue'
 import { filterDevtoolsCommands } from '../../../packages/client/src/composables/commands'
 

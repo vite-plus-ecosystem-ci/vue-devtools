@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsRpcEvent } from '../../../packages/kit/src/rpc/types'
 import type { DevtoolsRpcChannelHandle } from '../../../packages/kit/src/rpc/channel'
 import type { DevtoolsRpcClient } from '../../../packages/kit/src/rpc/client'
