@@ -40,8 +40,8 @@
     }
   },
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch"
+    "build": "vp pack",
+    "dev": "vp pack --watch"
   },
   "dependencies": {
     "@devframes/agentic": "catalog:",
@@ -51,9 +51,7 @@
     "safe-stable-stringify": "catalog:",
     "zod": "catalog:"
   },
-  "devDependencies": {
-    "tsdown": "catalog:"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=22.12.0"
   }

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { encodeValue } from '../../../packages/kit/src/codec/encode'
 
 describe('issue #1087: string and undefined encoding (https://github.com/vuejs/devtools/issues/1087)', () => {

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { isNuxtPage } from '../../../packages/chrome/src/shared/detection'
 
 describe('Chrome Nuxt detection', () => {

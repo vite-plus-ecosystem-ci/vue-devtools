@@ -5,7 +5,7 @@ import type { ComponentTreeNodeSnapshot } from '../../../packages/kit/src/protoc
 import type { InstalledDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { createApp, defineComponent, h, KeepAlive, nextTick, ref, setDevtoolsHook } from 'vue'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import { installDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { applyComponentTreePatches } from '../../../packages/client/src/utils/component-tree-patches'

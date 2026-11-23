@@ -1,4 +1,4 @@
-import { afterEach, expect, it, vi } from 'vitest'
+import { afterEach, expect, it, vi } from 'vite-plus/test'
 import { ValueHandleRegistry } from '../../../packages/kit/src/codec'
 import { resolveRuntimeBudget } from '../../../packages/kit/src/runtime/budget'
 import { createRuntimeEventLog } from '../../../packages/kit/src/runtime/events'

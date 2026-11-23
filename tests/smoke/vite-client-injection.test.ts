@@ -7,7 +7,7 @@ import { createServer as createHttpServer, type Server as HttpServer } from 'nod
 import { dirname, resolve } from 'node:path'
 import { tmpdir } from 'node:os'
 import { fileURLToPath } from 'node:url'
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it } from 'vite-plus/test'
 import { createServer } from 'vite'
 import { vueDevtools } from '../../packages/vite/src'
 

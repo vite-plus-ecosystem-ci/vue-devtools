@@ -1,7 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
 import vueDevtools from 'vite-plugin-vue-devtools'
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite-plus'
 
 export default defineConfig({
   devtools: { apply: 'serve' },

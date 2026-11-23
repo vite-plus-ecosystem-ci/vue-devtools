@@ -1,6 +1,6 @@
 // @vitest-environment happy-dom
 
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { mount } from '@vue/test-utils'
 import PluginSettings from '../../../packages/client/src/components/plugins/PluginSettings.vue'
 import type { PluginSnapshot } from '../../../packages/client/src/composables/devtools-client'

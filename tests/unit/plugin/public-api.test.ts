@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsKit } from '../../../packages/kit/src/kit'
 import type { DevtoolsRpcChannelHandle } from '../../../packages/kit/src/rpc/channel'
 import {

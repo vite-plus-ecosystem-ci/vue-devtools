@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import type { DevtoolsKit } from '../../../packages/kit/src/kit'
 import type { DevToolsPluginAPI } from '../../../packages/kit/src/plugin'
 import type { EncodedValue } from '../../../packages/kit/src/codec'

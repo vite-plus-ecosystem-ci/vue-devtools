@@ -1,7 +1,7 @@
 // @vitest-environment happy-dom
 
 import type { ReactivityGraphSnapshot } from '../../../packages/kit/src/protocol'
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it } from 'vite-plus/test'
 import { mount } from '@vue/test-utils'
 import ReactivityGraph from '../../../packages/client/src/components/components/ReactivityGraph.vue'
 

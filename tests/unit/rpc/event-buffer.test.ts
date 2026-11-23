@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test'
 import { resolveRuntimeBudget } from '../../../packages/kit/src/runtime/budget'
 import { createRuntimePerformanceMonitor } from '../../../packages/kit/src/runtime/performance'
 import {

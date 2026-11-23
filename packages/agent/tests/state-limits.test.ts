@@ -1,5 +1,5 @@
 import type { ComponentStateSnapshotMessage } from '../../kit/src/protocol'
-import { expect, it, vi } from 'vitest'
+import { expect, it, vi } from 'vite-plus/test'
 import { createDevtoolsRuntime } from '../../kit/src/runtime/runtime'
 import { measureRuntimeMessageBytes } from '../../kit/src/rpc/event-buffer'
 import { createComponentTreeFixture } from '../../../tests/fixtures/runtime'

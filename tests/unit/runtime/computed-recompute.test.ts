@@ -6,7 +6,7 @@ import type { ComponentStateSnapshotMessage } from '../../../packages/kit/src/pr
 import type { InstalledDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import type { DevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'
 import { computed, createApp, defineComponent, h, nextTick, ref, setDevtoolsHook } from 'vue'
-import { afterEach, describe, expect, it, onTestFinished, vi } from 'vitest'
+import { afterEach, describe, expect, it, onTestFinished, vi } from 'vite-plus/test'
 import * as Vue36 from 'vue-3.6/dist/vue.runtime-with-vapor.esm-browser.js'
 import { installDevtoolsHook } from '../../../packages/kit/src/hook/install'
 import { createDevtoolsRuntime } from '../../../packages/kit/src/runtime/runtime'

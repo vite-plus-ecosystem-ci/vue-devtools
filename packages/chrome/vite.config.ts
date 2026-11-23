@@ -1,12 +1,15 @@
+import tsdownConfig from './tsdown.config.js'
+
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath } from 'node:url'
 import UnoCSS from 'unocss/vite'
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite-plus'
 
 const packageDir = fileURLToPath(new URL('.', import.meta.url))
 const workspaceDir = fileURLToPath(new URL('../..', import.meta.url))
 
 export default defineConfig({
+  pack: tsdownConfig,
   base: './',
   build: {
     sourcemap: false,

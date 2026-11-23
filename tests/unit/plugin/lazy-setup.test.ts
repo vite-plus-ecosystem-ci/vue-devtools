@@ -1,4 +1,4 @@
-import { afterEach, expect, it, vi } from 'vitest'
+import { afterEach, expect, it, vi } from 'vite-plus/test'
 import { reactive, watch } from 'vue'
 import { createDevtoolsKit, type DevtoolsKit } from '../../../packages/kit/src/kit'
 import { createDevtoolsRpcClient } from '../../../packages/kit/src/rpc/client'

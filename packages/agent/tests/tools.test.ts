@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 import { createVueDevtoolsAgentTools } from '../src'
 
 const page = { id: 'document-1', url: 'http://localhost:5173/', title: 'App' }
